@@ -1,0 +1,125 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body{
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    /* scrollbar-width: thin;
+    scroll-behavior: smooth;
+    scrollbar-color: black; */
+}
+::-webkit-scrollbar{
+  width: 3px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  background: #000814;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #C5C7D4;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.homepage_bg{
+    background: url("../src/assets/Images/bghome.svg");
+}
+.textGradient{
+    background: linear-gradient(to left, #5433FF, #20BDFF, #A5FECB);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+.dashedLine{
+    border-left: 1px dashed black;
+    height: 50px;
+    transform: translateY(58px);
+}
+.spinner {
+    --d:22px;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    color: #766DF4;
+    box-shadow: 
+      calc(1*var(--d))      calc(0*var(--d))     0 0,
+      calc(0.707*var(--d))  calc(0.707*var(--d)) 0 1px,
+      calc(0*var(--d))      calc(1*var(--d))     0 2px,
+      calc(-0.707*var(--d)) calc(0.707*var(--d)) 0 3px,
+      calc(-1*var(--d))     calc(0*var(--d))     0 4px,
+      calc(-0.707*var(--d)) calc(-0.707*var(--d))0 5px,
+      calc(0*var(--d))      calc(-1*var(--d))    0 6px;
+    animation: s7 1s infinite steps(8);
+  }
+  
+  @keyframes s7 {
+    100% {transform: rotate(1turn)}
+  }
+.AboutTextGradient1{
+  background: linear-gradient(to left, #FF512F, #F09819);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.AboutTextGradient2{
+  background: linear-gradient(to left, #E65C00, #F9D423);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.AboutTextGradient3{
+  background: linear-gradient(to left, #833AB4, #FD1D1D, #FCB045);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.tableProp1{
+  width: 45%;
+  display: flex ;
+  border-right: 1px solid #2C333F;
+  /* align-items: self-start; */
+}
+.tableProp2{
+  width: 25%;
+  display: flex ;
+  justify-content: center;
+  border-right: 1px solid #2C333F;
+  /* align-items: self-start; */
+}
+.tableProp3{
+  width: 25%;
+  justify-content: center;
+}
+
+.tableProp21{
+  width: 60%;
+  display: flex;
+  /* border-right: 1px solid #2C333F; */
+}
+.tableProp22{
+  width: 15%;
+  display: flex;
+  justify-content: center;
+  place-items: center;
+  /* border-right: 1px solid #2C333F; */
+}
+.tableProp23{
+  width: 15%;
+  display: flex ;
+  justify-content: center;
+  place-items: center;
+  /* border-right: 1px solid #2C333F; */
+}
+.tableProp24{
+  width: 10%;
+  display: flex;
+  justify-content: center;
+  place-items: center;
+}
