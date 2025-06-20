@@ -1,35 +1,49 @@
-# StudyNotion 🎓
+# 🎓 StudyNotion
 
-**StudyNotion** is a modern EdTech platform built using the MERN stack, designed to offer seamless user experience for learning, teaching, and course management. Whether you're a student or an instructor, StudyNotion provides intuitive features tailored to your needs.
+[![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Live Demo](https://img.shields.io/badge/Live-Demo-Online-brightgreen)](https://study-notion-frontend-dun-kappa.vercel.app/)
 
-![StudyNotion Banner](https://your-image-link-if-any.com)
+**StudyNotion** is a fully functional EdTech platform built with the **MERN stack**. It enables seamless learning experiences by providing an interactive platform for both **students** and **instructors**.
 
-## 🚀 Features
-
-- 🧑‍🎓 **User Roles**: Sign up as a Student or Instructor
-- 🎥 **Course Creation**: Instructors can create and manage courses with videos and structured modules
-- 💳 **Payment Integration**: Stripe integration for paid courses
-- 📊 **Dashboard**: Personalized dashboards for both students and instructors
-- 🔍 **Course Discovery**: Browse and search through courses by categories and tags
-- ✅ **Authentication**: Secure login/signup with JWT tokens
-- 📬 **Email Verification**: Built-in email verification during signup
-- 🌙 **Dark Mode**: Sleek UI with optional dark mode
-- 📱 **Responsive UI**: Fully responsive across devices
+✨ **Live Project**: [https://study-notion-frontend-dun-kappa.vercel.app/](https://study-notion-frontend-dun-kappa.vercel.app/)
 
 ---
 
-## 🛠️ Tech Stack
+## 📸 Screenshots
 
-### Frontend
-- **React.js**
-- **Tailwind CSS**
-- **Redux Toolkit**
-- **React Router**
+> _(You can update these with your own screenshots)_
 
-### Backend
-- **Node.js**
-- **Express.js**
-- **MongoDB (Mongoose)**
-- **JWT Authentication**
-- **Cloudinary** (for image/video storage)
-- **Nodemailer** (for email verification)
+### Home Page  
+![Home Page](https://via.placeholder.com/800x400.png?text=Home+Page)
+
+### Course Page  
+![Course Page](https://via.placeholder.com/800x400.png?text=Course+Details)
+
+### Instructor Dashboard  
+![Instructor Dashboard](https://via.placeholder.com/800x400.png?text=Instructor+Dashboard)
+
+---
+
+## 🚀 Features
+
+- 🔐 Secure **Authentication** with JWT & bcrypt
+- 🧑‍🏫 Instructor & Student **role-based dashboards**
+- 📚 **Course creation** with modules and video upload
+- 💳 **Stripe** integrated for course purchases
+- 📦 **Cloudinary** integration for media uploads
+- 🌐 Fully **responsive** UI (mobile + desktop)
+- 📧 Email verification & password reset via **Nodemailer**
+- 🌙 Dark Mode support
+- 🔍 Search & Filter Courses
+- 📊 Track student progress
+
+---
+
+## ⚙️ Tech Stack
+
+| Frontend            | Backend             | Database | Others             |
+|---------------------|---------------------|----------|--------------------|
+| React.js            | Node.js             | MongoDB  | Stripe             |
+| Redux Toolkit       | Express.js          |          | Cloudinary         |
+| Tailwind CSS        | JWT Authentication  |          | Nodemailer         |
+| React Router DOM    | Mongoose            |          |                    |
