@@ -1,26 +1,10 @@
 # 🎓 StudyNotion
 
-[![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Live Demo](https://img.shields.io/badge/Live-Demo-Online-brightgreen)](https://study-notion-frontend-dun-kappa.vercel.app/)
+[Live Demo](https://study-notion-frontend-dun-kappa.vercel.app/)
 
 **StudyNotion** is a fully functional EdTech platform built with the **MERN stack**. It enables seamless learning experiences by providing an interactive platform for both **students** and **instructors**.
 
 ✨ **Live Project**: [https://study-notion-frontend-dun-kappa.vercel.app/](https://study-notion-frontend-dun-kappa.vercel.app/)
-
----
-
-## 📸 Screenshots
-
-> _(You can update these with your own screenshots)_
-
-### Home Page  
-![Home Page](https://via.placeholder.com/800x400.png?text=Home+Page)
-
-### Course Page  
-![Course Page](https://via.placeholder.com/800x400.png?text=Course+Details)
-
-### Instructor Dashboard  
-![Instructor Dashboard](https://via.placeholder.com/800x400.png?text=Instructor+Dashboard)
 
 ---
 
